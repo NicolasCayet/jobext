@@ -1,0 +1,7 @@
+extia_jobext:
+    resource: "@ExtiaJobextBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

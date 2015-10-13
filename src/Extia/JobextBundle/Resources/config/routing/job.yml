@@ -1,0 +1,30 @@
+extia_job:
+    path:     /
+    defaults: { _controller: "ExtiaJobextBundle:Job:index" }
+
+extia_job_show:
+    path:     /{id}/show
+    defaults: { _controller: "ExtiaJobextBundle:Job:show" }
+
+extia_job_new:
+    path:     /new
+    defaults: { _controller: "ExtiaJobextBundle:Job:new" }
+
+extia_job_create:
+    path:     /create
+    defaults: { _controller: "ExtiaJobextBundle:Job:create" }
+    methods:  POST
+
+extia_job_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ExtiaJobextBundle:Job:edit" }
+
+extia_job_update:
+    path:     /{id}/update
+    defaults: { _controller: "ExtiaJobextBundle:Job:update" }
+    methods:  [POST, PUT]
+
+extia_job_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ExtiaJobextBundle:Job:delete" }
+    methods:  [POST, DELETE]

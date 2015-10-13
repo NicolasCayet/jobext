@@ -1,0 +1,7 @@
+extia_jobext_extia_job:
+    resource: "@ExtiaJobextBundle/Resources/config/routing/job.yml"
+    prefix:   /extia_job
+
+extia_jobext_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ExtiaJobextBundle:Default:index }
